@@ -28,6 +28,12 @@
       font-family: inherit;
       /* Additional styling for these elements */
     }
+
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
   </style>
 </head>
 
@@ -48,13 +54,18 @@
           color: lightgray;
         ">
       <div style="display: flex; justify-content: space-evenly;align-items: center; max-width: 800px">
-        <img src="./images/app-store.jpeg" style="width: auto; height: 30px;border-radius: 2px;" />
-        <img src="./images/google-play.jpeg" style="width: auto; height: 30px;border-radius: 2px" />
-        <p id="notice" style="visibility:visible">_</p>
+        <a href="https://apps.apple.com/app/id6449092030" target="_blank">
+          <img src="./images/app-store.jpeg" style="width: auto; height: 30px;border-radius: 2px; margin-right: 5px;" />
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.aimpawpaw.aimpawpawapp" target="_blank">
+          <img src="./images/google-play.jpeg" style="width: auto; height: 30px;border-radius: 2px; margin-left: 5px" />
+        </a>
+
+        <p id="notice" style="visibility:visible"></p>
       </div>
     </div>
     <div style="width: 100vw; height: calc(100vh - 55px)">
-      <iframe style="min-width: 100%; min-height: 100%; border: 0" src="https://aimpawpaw.pages.dev"></iframe>
+      <iframe style="min-width: 100%; min-height: 100%; border: 0" src="https://aimpawdemo.pages.dev"></iframe>
     </div>
   </div>
 </body>
